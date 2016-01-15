@@ -1,0 +1,28 @@
+html {
+  background: black;
+}
+
+#board {
+  margin: 0 auto;
+  display: block;
+  border: 2px solid black;
+  background: #333333;
+}
+
+#lines {
+  text-align: center;
+  display: block;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 0;
+  color: white;
+  font-size: 1.5em;
+}
+
+img {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
