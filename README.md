@@ -2,7 +2,7 @@
 
 [Live Link][tetris]
 
-[tetris]: http://stephanie-lee.github.io/Tetris/
+[tetris]: http://stephanie-lee.github.io/Tetris
 
 A simple rendition of the popular tile-matching puzzle game.
 
