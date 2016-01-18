@@ -115,6 +115,7 @@ Piece.prototype._collides = function(dx, dy, pattern) {
 
 var lines = 0;
 var done = false;
+var score = 0;
 Piece.prototype.lock = function() {
   for (var ix = 0; ix < this.pattern.length; ix++) {
     for (var iy = 0; iy < this.pattern.length; iy++) {
@@ -147,13 +148,15 @@ Piece.prototype.lock = function() {
         board[0][x] = false;
       }
       nlines++;
-
-      if (nlines > 0) {
-        lines += nlines;
-        drawBoard();
-        linecount.textContent = "Score: " + lines * 10;
-      }
     }
+  }
+  if (nlines > 0) {
+    lines += nlines;
+    for (nlines; nlines > 0; nlines-- ) {
+      score += nlines * 10;
+    }
+    drawBoard();
+    linecount.textContent = "Score: " + score;
   }
 };
 
@@ -233,9 +236,9 @@ function main() {
   var now = Date.now();
   var timeDiff = now - dropStart;
 
-  clearedLines = parseInt(linecount.textContent.split(" ")[1]);
+  score = parseInt(linecount.textContent.split(" ")[1]);
 
-  if (timeDiff > (1000 - clearedLines * 10 )) {
+  if (timeDiff > (800 - score )) {
     piece.down();
     dropStart = now;
   }

@@ -26,3 +26,8 @@ img {
 div {
   text-align: center;
 }
+
+#octocat {
+  background-color: white;
+  margin-top: 10px;
+}
