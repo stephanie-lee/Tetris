@@ -2,9 +2,9 @@
 
 Classic Tetris game where you play at your own pace. Getting past 800 points is tough; past 840 is basically impossible.
 
-*Instruction:*
-Arrow keys: L-left shift, R-right shift, Up-rotate, Down-down
-Space: quick drop
+**Instruction:**
+- **Arrow Keys:** L-left shift, R-right shift, Up-rotate, Down-down
+- **Space:** quick drop
 
 ##Game
 * Javascript functions determine game logic such as collisions between piece/piece and piece/wall.
@@ -24,8 +24,8 @@ Score keeper incorporate bonus scores:
 * 4 lines = 100 points
 
 ##Future Additions
-- [] Placed pieces maintain color once lines cleared
-- [] Menu and instructions
-- [] Key listeners that allow more than one key to be pressed (i.e. rotate and right shift)
-- [] Pieces can still rotate when up against a wall (i.e. wall kicks)
-- [] Pieces spawn in random positions
+- [ ] Placed pieces maintain color once lines cleared
+- [ ] Menu and instructions
+- [ ] Key listeners that allow more than one key to be pressed (i.e. rotate and right shift)
+- [ ] Pieces can still rotate when up against a wall (i.e. wall kicks)
+- [ ] Pieces spawn in random positions
