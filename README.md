@@ -2,9 +2,9 @@
 
 Classic Tetris game where you play at your own pace. Getting past 800 points is tough; past 840 is basically impossible.
 
-*Instruction:*
-Arrow keys: L-left shift, R-right shift, Up-rotate, Down-down
-Space: quick drop
+**Instruction:**
+*Arrow keys: L-left shift, R-right shift, Up-rotate, Down-down
+Space: quick drop*
 
 ##Game
 * Javascript functions determine game logic such as collisions between piece/piece and piece/wall.
