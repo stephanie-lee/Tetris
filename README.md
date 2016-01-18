@@ -1,4 +1,5 @@
-# Tetris
+# [Tetris][game]
+[game]: http://stephanie-lee.github.io/Tetris/
 
 Classic Tetris game where you play at your own pace. Getting past 800 points is tough; past 840 is basically impossible.
 
